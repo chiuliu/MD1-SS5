@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .container{
+    border: 1px solid black;
+  }
+  .lstmenu{
+    width: 10px;
+    overflow: hidden;
+    background-color: antiquewhite;
+  }
+  .lstmenu ul{
+    padding-left: 10px;
+  }
+  .boxIcon:active ~ .lstmenu{
+    width: 400px;
+  }

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    position: relative;
+    width: 300px;
+}
+.main{
+    position: absolute;
+    background-color: black;
+    bottom: 10px;
+    left: 100px;
+}
+.container img{
+    width: 100%;
+}
+h2{
+    color: white;
+}
+.blog-title{
+    border-left: 5px solid red;
+} */
+
+.parent{
+    height: 700px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+
+    /* justify-content: center; */
+    /* justify-content: space-around   ; */
+    /* justify-content: flex-end; */
+
+    align-items: center;
+
+}
+.parent .child-1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+.parent .child-2{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}.parent .child-3{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}.parent .child-4{
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+}
